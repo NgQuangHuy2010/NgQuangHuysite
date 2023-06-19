@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Signika:wght@500&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Signika', sans-serif;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)) ,url(thiet-ke-noi-that-chung-cu-hien-dai-17.jpg);
+    background-repeat: no-repeat;
+}
+.header {
+    background-color: white !important;
+    display: flex;
+    justify-content: space-between;
+    height:70px  ;
+   background-color: transparent;
+}
+.header .logo{
+margin-top: 20px;
+font-size: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #0000CC;
+    margin-left: 40px;
+    
+}
+.menu{
+   margin-top: 20px; 
+  
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+   
+    list-style: none;
+}
+.menu ul li {
+    padding-right: 50px;
+    font-size: 20px;
+ 
+}
+.menu ul li a{
+    display: block;
+    color: #0000CC;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+}
+.menu ul li a:after{
+    content: "";
+    height: 5px;
+    width: 0px;
+    background: orangered;   
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+}
+.menu ul li a:hover:after{
+    width: 100% ;
+    transition: all 0.5s ease-in-out;
+}
+.content {
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+}
+.content .tieude{
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.content .tieude1{
+   font-style: italic;
+   font-size: 10px;
+    width: 100%;
+   color: aliceblue;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
